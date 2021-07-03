@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/blue"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:text="How many tables do you have?"
+            android:textColor="@color/white"
+            android:textSize="47dp" />
+
+
+        <EditText
+            android:id="@+id/tablenumbertxt"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="25dp"
+            android:drawablePadding="10dp"
+            android:fontFamily="cursive"
+            android:hint="Input here!"
+            android:inputType="number"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/createbtn"
+            android:layout_width="175dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:hint="Start manage!"
+            android:textColorHint="@color/white"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/logoutbtn"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="30dp"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:hint="Log out"
+            android:textColorHint="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+</layout>
+
+
+

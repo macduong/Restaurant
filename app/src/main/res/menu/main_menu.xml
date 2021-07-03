@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/accInfo"
+        android:icon="@drawable/managericon"
+        android:title="Manager Info" />
+    <item
+        android:id="@+id/managefood"
+        android:icon="@drawable/foodicon"
+        android:title="Manage Food Info" />
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/logouticon"
+        android:title="Logout" />
+    <item
+        android:id="@+id/exit"
+        android:icon="@drawable/exiticon"
+        android:title="Exit" />
+</menu>
